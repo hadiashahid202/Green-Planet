@@ -1,0 +1,36 @@
+*{
+	font-family: "Roboto", sans-serif;
+}
+body{
+	display: flex;
+	align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #E7F0DC;
+}
+.letter{
+	background: rgb(168, 118, 118);
+	border-radius: 5px;
+	text-align: center;
+	padding: 40px;
+}
+.letter h2{
+	font-size: xx-large;
+}
+.letter p{
+	font-size: large;
+}
+.letter .email{
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 2px;
+}
+.letter .submit{
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+.letter .submit:hover{
+	background: #F7E7DC;
+}
